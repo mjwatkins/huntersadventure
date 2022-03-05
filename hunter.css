@@ -1,0 +1,35 @@
+
+.command-panel {
+ border: solid;
+ min-height: 10%;
+ width: 100%
+}
+
+.event-window {
+    display:inline;
+    height: 30%;
+    min-width: 30%;
+    border: solid 1px;
+}
+
+.inventory-window {
+    display: inline;
+    border: solid 1px;
+}
+
+.upper-window {
+    display: inline;
+    border: solid;
+    min-height: 50%;
+    min-width: 30%
+}
+
+.stat-window {
+    display: inline;
+    width: 30%;
+    border: solid 1px black;
+}
+
+.command-button {
+    margin: 20px; 
+}
