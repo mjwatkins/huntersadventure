@@ -20,8 +20,6 @@
 .upper-window {
     display: inline;
     border: solid;
-    min-height: 50%;
-    min-width: 30%
 }
 
 .stat-window {
@@ -32,4 +30,11 @@
 
 .command-button {
     margin: 20px; 
+}
+
+.grid-element {
+    display: inline;
+    min-height: 50%;
+    min-width: 30%;
+    border: solid;
 }
