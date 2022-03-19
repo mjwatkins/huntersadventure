@@ -2,50 +2,51 @@
 
  <head>
      <title> Hunter's Adventure </title>
+     <link rel="stylesheet" href="css/mdb.min.css">
      <link rel="stylesheet" href="hunter.css">
      <link rel="icon" href="hunter_fav.jpeg">
  </head>
 <body>
-    <h1> Hunter's Adventure </h1>
+    <h1 class="title-bar text-uppercase"> Hunter's Adventure </h1>
     <div class="upper-window">
     <!-- Stat Window --> 
         <div class="grid-element"> 
-            <table class="stat-window">
-                <th> Character Stats </th>
+            <table class="stat-window table-responsive">
+                <th > Character Stats </th>
                 <tr> 
-                    <td> Strength </td> 
-                    <td> -- </td>
+                    <td title="How hard you hit" > Strength </td> 
+                    <td id="speedValue"> -- </td>
                 </tr>
                 <tr> 
-                    <td> Speed </td> 
-                    <td> -- </td>
+                    <td title="How fast you are (aiming/running)"> Speed </td> 
+                    <td id="speedValue"> -- </td>
                 </tr>
                 <tr> 
-                    <td> Smarts </td> 
-                    <td> -- </td>
+                    <td title="How good are you at solving problems"> Smarts </td> 
+                    <td id="smartsValue"> -- </td>
                 </tr>
                 <tr> 
-                    <td> Toughness </td> 
-                    <td> -- </td>
+                    <td title="How well can you take a hit"> Toughness </td> 
+                    <td id="toughnessValue"> -- </td>
                 </tr>
                 <tr> 
-                    <td> Pathfinding </td> 
-                    <td> -- </td>
+                    <td title="How good are you at finding your way"> Pathfinding </td> 
+                    <td id="pathValue"> -- </td>
                 </tr>
                 <tr> 
-                    <td> Survival </td> 
-                    <td> -- </td>
+                    <td title="How good are you at finding food/water"> Survival </td> 
+                    <td id="survivalValue"> -- </td>
                 </tr>
                 <tr> 
-                    <td> Cooking </td> 
-                    <td> -- </td>
+                    <td title="How good are you at cooking food"> Cooking </td> 
+                    <td id="cookValue"> -- </td>
                 </tr>
                 <tr> 
-                    <td> Crafting </td> 
-                    <td> -- </td>
+                    <td title="How good are you at making armor and  weapons"> Crafting </td> 
+                    <td id="craftingValue"> -- </td>
                 </tr>
-                <tr> <td>Hunger</td> </tr>
-                <tr> <td>Thirst</td> </tr>
+                <tr> <td>Hunger</td> <td id="hungerValue"> </td> </tr>
+                <tr> <td>Thirst</td> <td id="thistValue"> </td> </tr>
             </table>
         </div>
     <!-- Event Window -->
@@ -54,23 +55,23 @@
         </div>
     <!-- Inventory Window--> 
         <div class="grid-element" > 
-            <table class="inventory-window">
+            <table class="inventory-window table-responsive">
                 <th>  Inventory  </th>
                 <tr> </tr>
             </table>
         </div>
     <!-- Command Panel -->
     </div>
-    <div class="command-panel">
-        <button class="command-button"> Search for Water </button>
-        <button class="command-button"> Search for Fruits </button>
-        <button class="command-button"> Hunt </button>
-        <button class="command-button"> Attack </button>
-        <button class="command-button"> Run Away </button>
-        <button class="command-button"> Camp </button>
-        <button class="command-button"> Eat/Drink </button>
-        <button class="command-button"> Rest </button>
-        <button class="command-button"> Make Gear </button>        
+    <div class="command-panel btn-group">
+        <button class="command-button btn"> Search for Water </button>
+        <button class="command-button btn"> Search for Fruits </button>
+        <button class="command-button btn"> Hunt </button>
+        <button class="command-button btn"> Attack </button>
+        <button class="command-button btn"> Run Away </button>
+        <button class="command-button btn"> Camp </button>
+        <button class="command-button btn"> Eat/Drink </button>
+        <button class="command-button btn"> Rest </button>
+        <button class="command-button btn"> Make Gear </button>        
     </div>
 </body>
     

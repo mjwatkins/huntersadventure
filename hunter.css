@@ -1,40 +1,61 @@
-
+.title-bar {
+    text-align: center;
+    background-color: red;
+    color: white;
+}
 .command-panel {
- border: solid;
- min-height: 10%;
- width: 100%
+    border: solid;
+    min-height: 10%;
+    width: 100%;
+    background: grey;
+    align-content: center;
 }
 
 .event-window {
     display:inline;
-    height: 30%;
-    min-width: 30%;
+    height: 40%;
+    width: 70%;
     border: solid 1px;
+    vertical-align: top;
 }
 
 .inventory-window {
     display: inline;
-    border: solid 1px;
+    vertical-align: top;
+    width:20%
 }
 
 .upper-window {
     display: inline;
-    border: solid;
 }
 
 .stat-window {
     display: inline;
-    width: 30%;
-    border: solid 1px black;
+    width: 20%;
+    vertical-align: top;
 }
 
 .command-button {
     margin: 20px; 
+    background: white;
+}
+
+table {
+}
+
+th {
+    border: solid 1px;
+    
+}
+td {
+    border: solid  1px;
+}
+
+button {
+    
 }
 
 .grid-element {
     display: inline;
-    min-height: 50%;
-    min-width: 30%;
-    border: solid;
+    height: 50%;
 }
